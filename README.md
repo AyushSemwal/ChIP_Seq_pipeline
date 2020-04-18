@@ -11,4 +11,6 @@ The script takes in following parameters (in order) as input:
 5) controls metadata file
 6) SNPs file
 
+You just need to submit bowtie2_align.pbs script to the cluster for each sample. This is done in such a manner so that the pipleine can be run for eacxh sample in parallel.
+
 Depending upon whether allele specific analysis has to be done or not, SNPsplit is run. The output folder contains Bowtie2 Bam file, de-duplicated bam files, SNP splitted bam files (if allele-specific) and bigwig files.
