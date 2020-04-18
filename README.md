@@ -11,3 +11,4 @@ The script takes in following parameters (in order) as input:
 5) controls metadata file
 6) SNPs file
 
+Depending upon whether allele specific analysis has to be done or not, SNPsplit is run. The output folder contains Bowtie2 Bam file, de-duplicated bam files, SNP splitted bam files (if allele-specific) and bigwig files.
